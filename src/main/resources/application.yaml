@@ -1,0 +1,14 @@
+
+spring:
+  kafka:
+    consumer:
+      enable-auto-commit: false
+    listener:
+      ack-mode: manual_immediate
+
+kafkademo:
+  outbound-topic: "outbound-topic"
+#  inbound-topics:
+#    - "inbound-topic-1"
+#    - "inbound-topic-2"
+#    - "inbound-topic-3"
